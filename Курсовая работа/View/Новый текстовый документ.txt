@@ -1,0 +1,55 @@
+	
+<!--Navigation-->
+	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#"><img src="imagenes/logo1.png"></a>
+			<button class="navbar-toggler" type="button" data-toogle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Services</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Team</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Connect</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+<!--Image Slider-->
+	<div id="slides" class="carousel slide" data-ride="carousel">
+		<ul class="carousel-indicators">
+			<li data-target="#slides" data-slide-to="0" class="active"></li>
+			<li data-target="#slides" data-slide-to="1" ></li>
+			<li data-target="#slides" data-slide-to="2" ></li>
+		</ul>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="imagenes/imagene1.png">
+				<div class="carousel-caption">
+					<h1 class="display-2">Descarga de Videos</h1>
+					<h3>En Youtube o en otros sitios web y plataformas</h3>
+					<button type="button" class="btn btn-outline-light btn-lg">View Demo</button>
+					<button type="button" class="btn btn-primary btn-lg">Get Started</button>
+				</div>
+			</div>
+			<div class="carousel-item active">
+				<img src="imagenes/imagene2.png">
+			</div>
+			<div class="carousel-item active">
+				<img src="imagenes/iamgene3.jpg">
+			</div>		
+		</div>
+	</div>
